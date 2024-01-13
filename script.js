@@ -50,3 +50,8 @@ function gameOver(score1, score2) {
         console.log("Game over! I win :)");
     }
 }
+
+const start = document.querySelector(".start");
+
+start.addEventListener('click', () => game());
+
