@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
 
 <body>
@@ -13,15 +13,20 @@
         <button class="restart">Restart</buttonclas>
     </div>
 
-    <div class="weapons">
-        <button class="rock">Rock</button>
-        <button class="paper">Paper</button>
-        <button class="scissors">Scissors</button>
+    <!-- <div class="weapons">
+        Using id's instead of name classes, this allows all the buttons to have one event listener - making the code faster to run.
+    </div> -->
+
+    <div class="computer-choice">
+        Computer chose:
+    </div>
+    <div class="user-choice">
+        You chose:
     </div>
 
     <div class="scores">
-        <div class="home-score"></div>
-        <div class="away-score"></div>
+        <div id="home-score">My score: 0</div>
+        <div id="away-score">Your score: 0</div>
     </div>
 
     <div class="game-over"></div>
